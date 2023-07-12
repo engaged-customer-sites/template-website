@@ -8,6 +8,7 @@ setupGit() {
 updateFiles() {
   git add .
   git commit -m 'add files'
+  git pull --rebase
   git push -u origin main
 }
 
